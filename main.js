@@ -12,7 +12,7 @@ const camera = new THREE.PerspectiveCamera(
 );
 
 const loader = new GLTFLoader();
-loader.load('./assets/models/sunglass/scene.gltf', function (data) {
+loader.load('models/sunglass/scene.gltf', function (data) {
   console.log(data);
   const root = data.scene;
   root.scale.set(0.24, 0.24, 0.24);
